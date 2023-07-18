@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <h1>Survey Form </h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label>Customer Fistname </label>
+    <input type="text">
+    <br>
+
+    <label>Customer Lastname</label>
+    <input type="text">
+    <br>
+
+    <label>Address</label>
+    <input type="text">
+    <br>
+    <label>City</label>
+    <input type="text">
+    <br>
+    <label for="">Phone</label>
+    <input type="tell" id="phonenum" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+    placeholder="123-456-789" maxlength="9" required/>
+    <br>
+    <label for="birthday">select birthday</label>
+    <input type="date" id="birthday">
+    <br>
+    <label for>Status in Canada</label>
+        <select name="Studemt" id="Student">
+<option value="Student">Student</option>
+<option value="worker">worker</option>
+<option value="PR">PR</option>
+
+        </select>
+
+ <br>
+
+ <label>Gender</label>
+ 
+ <input type="checkbox" id="cb1" name="Women" value="Women">
+ <label id="cb1">Women</label>
+ 
+ <input type="checkbox" id="cb2" name="Men" value="Men">
+ <label id="cb2">Men</label>
+ <br>
+ <label for>Skill</label>
+ <input type="button" id="submit" value="Radio button" onclick="alert('ert')"/>
+ <br>
+ <input type="image" src="/Users/hungyuchieh/Desktop/IMG_4641.jpg" alt="image description" width="100" height="100"/>
+ <br>
+ <input type="file" id="file1" name="fileinfo"/>
+ <br>
+ <input type="number" id="num" name="no1" min="1" max="5"/>
+<br>
+ <input type="button" id="submit" value="submit" onclick="alert('ert')"/>
+
+ 
+ 
+
+ 
+
+
+
+</form>
+</body>
+</html>
